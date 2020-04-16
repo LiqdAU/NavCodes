@@ -1,0 +1,130 @@
+/*
+ * Layout: Tiles
+ */
+
+.menu-sc-wrap.menu-sc-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item {
+    display: block;
+    background: #F7F7F7;
+    flex: 1;
+    flex-basis: 30%;
+    margin-bottom: 3%;
+    max-width: 31.33%;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid rgba(151, 151, 151, 0.25);
+    position: relative;
+    padding-bottom: 56px;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item img {
+    margin-bottom: 15px;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item:nth-child(3n+2) {
+    margin: 0 3% 3% 3%;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item-top {
+    text-align: center;
+    padding: 25px;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom {
+    padding: 15px 30px;
+    border-top: 1px solid rgba(151, 151, 151, 0.25);
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom span {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0;
+    line-height: 25px;
+    display: block;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item-top,
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom {
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom span,
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-top,
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom {
+    opacity: 1;
+}
+.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom {
+    background-color: #DDDDDD;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+/*
+ * Layout: List
+ */
+
+.menu-sc-wrap.menu-sc-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    background: #f7f8f7;
+    border-radius: 3px;
+    border: 1px solid rgba(151, 151, 151, 0.25);
+}
+
+.menu-sc-wrap.menu-sc-list:first-child {
+    margin-top: 0;
+}
+
+.menu-sc-wrap.menu-sc-list .menu-sc-heading {
+    padding: 20px 30px;
+    font-weight: 500;
+    border: none;
+}
+
+.menu-sc-wrap.menu-sc-list li {
+    border-top: 1px solid rgba(151, 151, 151, 0.25)
+}
+
+.menu-sc-wrap.menu-sc-list .menu-sc-item {
+    padding: 20px 50px 20px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 1;
+    display: block;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    opacity: 0.4;
+    transition: opacity 0.5s;
+}
+
+.menu-sc-wrap.menu-sc-list .menu-sc-item:hover {
+    opacity: 1;
+}

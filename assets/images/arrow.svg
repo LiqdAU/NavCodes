@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="005_Patients" transform="translate(-373.000000, -476.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(163.000000, 455.000000)">
+                <path d="M217.5,25.793 L221.854,30.147 L221.147,30.854 L217.5,27.207 L213.854,30.853 L213.147,30.146 L217.5,25.793 L217.5,25.793 Z M225,28.5 C225,24.364 221.636,21 217.5,21 C213.364,21 210,24.364 210,28.5 C210,32.636 213.364,36 217.5,36 C221.636,36 225,32.636 225,28.5 Z" id="Shape" transform="translate(217.500000, 28.500000) rotate(90.000000) translate(-217.500000, -28.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
