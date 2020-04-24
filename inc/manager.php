@@ -26,7 +26,8 @@ class NavCodes {
     }
 
     public function enqueue_frontend() {
-        wp_enqueue_style('menu-sc-styles', $this->url . '/assets/css/menu-sc.frontend.css' );
+        wp_enqueue_style('navcodes-styles', $this->url . '/assets/css/navcodes.css' );
+        wp_enqueue_script('navcodes-script', $this->url . '/assets/js/navcodes.js', ['jquery']);
     }
 
     public function render_quicklinks($atts, $content) {

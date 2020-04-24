@@ -2,12 +2,12 @@
  * Layout: Tiles
  */
 
-.menu-sc-wrap.menu-sc-tiles {
+.navcodes-wrap.navcodes-tiles {
     display: flex;
     flex-wrap: wrap;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item {
+.navcodes-wrap.navcodes-tiles .navcodes-item {
     display: block;
     background: #F7F7F7;
     flex: 1;
@@ -21,27 +21,27 @@
     padding-bottom: 56px;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item img {
+.navcodes-wrap.navcodes-tiles .navcodes-item img {
     margin-bottom: 15px;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item h4 {
+.navcodes-wrap.navcodes-tiles .navcodes-item h4 {
     margin: 0;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item:nth-child(3n+2) {
+.navcodes-wrap.navcodes-tiles .navcodes-item:nth-child(3n+2) {
     margin: 0 3% 3% 3%;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item-top {
+.navcodes-wrap.navcodes-tiles .navcodes-item-top {
     text-align: center;
     padding: 25px;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom {
+.navcodes-wrap.navcodes-tiles .navcodes-item-bottom {
     padding: 15px 30px;
     border-top: 1px solid rgba(151, 151, 151, 0.25);
     font-weight: 500;
@@ -52,7 +52,7 @@
     border-radius: 0 0 3px 3px;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom span {
+.navcodes-wrap.navcodes-tiles .navcodes-item-bottom span {
     font-size: 16px;
     color: #000;
     letter-spacing: 0;
@@ -65,18 +65,18 @@
     transition: opacity 0.5s;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item-top,
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item-bottom {
+.navcodes-wrap.navcodes-tiles .navcodes-item-top,
+.navcodes-wrap.navcodes-tiles .navcodes-item-bottom {
     opacity: 0.6;
     transition: all 0.5s;
 }
 
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom span,
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-top,
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom {
+.navcodes-wrap.navcodes-tiles .navcodes-item:hover .navcodes-item-bottom span,
+.navcodes-wrap.navcodes-tiles .navcodes-item:hover .navcodes-item-top,
+.navcodes-wrap.navcodes-tiles .navcodes-item:hover .navcodes-item-bottom {
     opacity: 1;
 }
-.menu-sc-wrap.menu-sc-tiles .menu-sc-item:hover .menu-sc-item-bottom {
+.navcodes-wrap.navcodes-tiles .navcodes-item:hover .navcodes-item-bottom {
     background-color: #DDDDDD;
     border-radius: 3px;
     border-color: transparent;
@@ -86,7 +86,7 @@
  * Layout: List
  */
 
-.menu-sc-wrap.menu-sc-list {
+.navcodes-wrap.navcodes-list {
     list-style: none;
     padding: 0;
     margin: 20px 0;
@@ -95,21 +95,21 @@
     border: 1px solid rgba(151, 151, 151, 0.25);
 }
 
-.menu-sc-wrap.menu-sc-list:first-child {
+.navcodes-wrap.navcodes-list:first-child {
     margin-top: 0;
 }
 
-.menu-sc-wrap.menu-sc-list .menu-sc-heading {
+.navcodes-wrap.navcodes-list .navcodes-heading {
     padding: 20px 30px;
     font-weight: 500;
     border: none;
 }
 
-.menu-sc-wrap.menu-sc-list li {
+.navcodes-wrap.navcodes-list li {
     border-top: 1px solid rgba(151, 151, 151, 0.25)
 }
 
-.menu-sc-wrap.menu-sc-list .menu-sc-item {
+.navcodes-wrap.navcodes-list .navcodes-item {
     padding: 20px 50px 20px 30px;
     font-weight: 500;
     font-size: 16px;
@@ -125,6 +125,6 @@
     transition: opacity 0.5s;
 }
 
-.menu-sc-wrap.menu-sc-list .menu-sc-item:hover {
+.navcodes-wrap.navcodes-list .navcodes-item:hover {
     opacity: 1;
 }
