@@ -5,12 +5,12 @@
 
 ## Shortcode Attributes
 
-###heading
+### heading
 Replaces the menu heading
 
 
-###layout
+### layout
 Set to either "tiles" or "list" to change the display
 
-###menu
+### menu
 The menu slug to load
