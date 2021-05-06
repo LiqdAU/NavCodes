@@ -1,4 +1,4 @@
-# NavCodes
+# NavCodes WordPress Plugin
 
 ## Shortcode
 [show-menu menu="MENU-SLUG"]
